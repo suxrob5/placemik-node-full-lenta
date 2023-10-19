@@ -1,0 +1,51 @@
+.rectangle{
+    border: 2px solid red;
+    .rectangle_const{
+        .rectangle_const_main{
+            &__h1{
+                color: var(--ui-black, #000);
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 124.188%; 
+            }
+
+        }
+    }
+}
+
+.card1{
+    width: 180.5px;
+    height: 270.25px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.12);
+    margin: 21px;
+    .card_img__images1{
+        margin: 11.75px 10.25px;
+    }
+    .card_img__images{
+        margin: 8px;
+    }
+    .card_tittle1{
+        margin: 5.5px 8.5px;
+        &__p{
+            color: var(--ui-red, #FF4343);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        &__p1{
+            color: #000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 124.188%; 
+        }
+        .son1{
+            margin-left: 70px;
+            margin-top: -16px;
+        }
+    }
+}

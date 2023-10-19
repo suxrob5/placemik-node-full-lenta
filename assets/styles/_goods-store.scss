@@ -1,0 +1,12 @@
+.goods-store{
+    .goods-store_block{
+        h1{
+            margin-left: 100px;
+        }
+        .goods-store_block_box{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    }
+}

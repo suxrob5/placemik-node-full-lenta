@@ -1,0 +1,124 @@
+.container{
+    .container_frame{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        .container_frame_ul{
+            width: 500px;
+            // border: 2px solid black;
+        }
+        .container_frame_ul_lange{
+            // border: 2px solid black;
+            display: flex;
+            width: 100px;
+            height: auto;
+        }
+    }
+
+}
+
+.container_frame_lange{
+    display: flex;
+    align-items: center;
+    color: var(--ui-black, #000);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.line{
+    margin: 0 10px;
+}
+
+.svg{
+    margin: 5px 10px;
+}
+
+
+
+
+.header{
+    display: flex;
+    width: 1519px;
+    max-width: 1519px;
+    margin-left: -190px;
+    justify-content: space-evenly;
+    .sear{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .placemik{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .placemik_rectangle{
+            width: 77px;
+            height: 77px;
+            background: var(--ui-liner-button-100, linear-gradient(97deg, #F64D4D -57.09%, #4D5EF6 101.17%));
+            box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);   
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;         
+        }
+        .placmik_tittle{
+            height: 70px;
+            margin: 10px 0;
+        }
+    }
+    .search{
+        width: 624px;
+        height: 46px;
+        border: 2px solid var(--ui-liner-border-100, #F64D4D);
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: text;
+        .search_rectangle{
+            display: flex;
+            justify-content: space-evenly;
+            color: var(--ui-black, #000);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            align-items: center;
+            width: 96px;
+            height: 38px;
+            flex-shrink: 0;
+            background-color: #f8ebee;
+        }
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        .li{
+            text-align: center;
+        }
+     .icon_networks{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+     }   
+    }
+    .one{
+        margin: 15px 0;
+        margin-left: -12px;
+    }
+    .one1{
+        margin: 15px 0;
+        margin-left: -9px;
+    }
+    .icon1{
+        margin-left: 15px;
+    }
+    .li1{
+        margin-top: -15px;
+    }
+}
